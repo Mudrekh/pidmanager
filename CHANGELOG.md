@@ -7,4 +7,8 @@ enh: a new feature or functionality has been added.
 
 In development
 --------------------------------
+- fix: Move debug logs from dn-pidmanager to pidmanager
+
+v1.0.0
+--------------------------------
 - Initial Version

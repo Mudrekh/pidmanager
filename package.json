@@ -25,7 +25,10 @@
     "ps-node": "^0.1.6"
   },
   "scripts": {
-    "test": "nyc mocha --exit -- --recursive"
+    "test": "nyc mocha --exit -- --recursive",
+    "preversion": "/bin/bash ./scripts/preversion.sh",
+    "version": "/bin/bash ./scripts/version.sh",
+    "patch_and_push": "npm version patch && npm publish && git push"
   },
   "repository": {
     "type": "git",
