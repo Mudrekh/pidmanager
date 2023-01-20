@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^8.32.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.1",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.3.3"
+  },
+  "name": "pidmanager",
+  "version": "1.0.0",
+  "description": "Process for managing child pids to ensure they are killed",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "ps-node": "^0.1.6"
+  },
+  "scripts": {
+    "test": "nyc mocha --exit -- --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudrekh/pidmanager.git"
+  },
+  "keywords": [
+    "pid",
+    "manager"
+  ],
+  "author": "Mudrekh Goderya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mudrekh/pidmanager/issues"
+  },
+  "homepage": "https://github.com/mudrekh/pidmanager#readme"
+}
