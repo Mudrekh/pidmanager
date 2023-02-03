@@ -13,7 +13,7 @@
     "supertest": "^6.3.3"
   },
   "name": "pidmanager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Process for managing child pids to ensure they are killed",
   "main": "index.js",
   "directories": {
