@@ -7,6 +7,7 @@ enh: a new feature or functionality has been added.
 
 In development
 --------------------------------
+- fix: Add debug namespace for launcher
 
 Version 1.0.1 - (2023-01-20)
 --------------------------------
